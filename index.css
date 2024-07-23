@@ -453,7 +453,67 @@ line-height: 24.48px; */
     /* text-align: left; */
 
 }
+.consultbutton{
+    display: flex;
+    /* width: 74px; */
+    height: 33px;
+    padding: 6px;
+    /* margin: 7px; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* row-gap: 6px; */
+}
+.wp {
+    margin: 0px 14px;
+    padding: 8px;
+   width: 23px;
+   height: 55px;
+   width: 100%;
+   border-radius: 10px 10px 10px 10px;
+   opacity: 0px;
+   background: rgba(121, 176, 88, 1);
+   border: none;
+   font-family: 'Uxum-Grotesque';
+   font-size: 2vw;
 
+
+
+
+   /* font-weight: 400;
+line-height: 24.48px; */
+   text-align: center;
+   color: rgba(255, 255, 255, 1);
+}
+.wp p{
+    font-size: 2vw;
+}
+.wp img{
+    padding: 4px;
+}
+.call p{
+    font-size: 2.5vw;
+}
+.call {
+    font-size: 2.5vw;
+
+    height: 55px;
+   width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: rgba(121, 176, 88, 1);
+    border: none;
+    font-family: 'Uxum-Grotesque';
+   
+    /* font-weight: 400;
+line-height: 24.48px; */
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.call img{
+    width: 43px;
+}
 .cont {
     top: 46px;
     font-family: 'Uxum-Grotesque';
@@ -544,7 +604,7 @@ footer p {
 
 
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:770px) {
     body button {
         width: 34vw;
         font-size: 16px;
@@ -552,20 +612,31 @@ footer p {
  .about{
     width: 100%;
  }
+ .text{
+    font-size: 6vw;
+ }
+ .yt img{
+    width: 78vw;
+ }
     .course {
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     #courses {
-         font-size: 5vw;
+        width: 90%;
+         font-size: 6vw;
     }
    
     #courses button{
         font-size: 3vw;
-        width: 100%;
+        width: 80%;
         padding: 4px 2px 4px 2px;
+    }
+    #videos video{
+        width: 80%;
     }
     .resourceUse {
         display: flex;
@@ -617,18 +688,34 @@ footer p {
     }
 
     .consultText p {
+        margin: 23px;
         font-family: 'Uxum-Grotesque';
-        font-size: 3vw;
+        font-size: 3.4vw;
         font-weight: 250;
         /* line-height: 28.56px; */
         /* text-align: left; */
 
     }
 
+    .wp{
+        font-size: 3vw;
+    }
+    .call{
+        font-size: 5vw;
+    }
+    .consultImg {
+width: 90%;
+    }
     .cont {
         font-family: 'Uxum-Grotesque';
-        font-size: 3vw;
+        font-size: 4vw;
         font-weight: 250;
+    }
+    .socials img{
+        width: 9vw;
+    }
+    .social img{
+        width: 5vw;
     }
 
     footer {
@@ -637,19 +724,22 @@ footer p {
     }
 
     footer h4 {
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: 500;
     }
 
     footer h3 {
-        font-size: 4vw;
-        font-weight: 500;
+        font-size: 3vw;
+ 
+        font-weight: 600;
     }
 
     footer p {
         font-size: 3vw;
     }
-
+.foot{
+    font-size: 3vw;
+}
     .touch {
         width: 33vw;
         /* justify-content: flex-end; */
@@ -971,4 +1061,171 @@ footer p {
   .swiper-navBtn {
     display: none;
   }
+}
+
+
+
+@media screen and (max-width:350px){
+    .navbar{
+        margin: 0px;
+        padding: 4px;
+    }
+    .logo img{
+        width: 40vw;
+    }
+    .hero h1{
+        font-size: 11vw;
+    }
+    .hero button{
+        font-size: 6vw;
+        align-items: center;
+        /* margin: 0px 4px; */
+        /* padding: 0px 4px; */
+    }
+    .text{
+        width: 100%;
+        font-size: 7vw;
+    }
+    .yt img{
+        width: 80vw;
+    }
+    #courses{
+        width: 100%;
+        padding: 15px;
+        font-size: 11vw;
+    }
+    #courses button{
+        font-size: 6vw;
+    }
+    #videos video{
+        width: 100%;
+    }
+    #feedbacks{
+        font-size: 9vw;
+    }
+    .bookimg {
+        width: 100%;
+    }
+    .bookimg img{
+        width: 100%;
+    }
+    .rightText{
+        width: 90%;
+
+    }
+    .resource{
+        font-size: 11vw;
+    }
+    .resourcesBtn{
+        width: 60%;
+        font-size: 4vw;
+    }
+    .consultbutton{
+        display: flex;
+        /* padding: 6px;
+        margin: 7px; */
+        justify-content: space-between;
+row-gap: 7px;
+
+    }
+    .consultbutton{
+        display: flex;
+        /* width: 74px; */
+        height: 33px;
+        padding: 6px;
+        /* margin: 7px; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* row-gap: 6px; */
+    }
+    .wp {
+        margin: 0px 14px;
+        padding: 8px;
+       /* width: 23px;
+       /* height: 55px; */
+       width: 100%; 
+       border-radius: 10px 10px 10px 10px;
+       opacity: 0px;
+       background: rgba(121, 176, 88, 1);
+       border: none;
+       font-family: 'Uxum-Grotesque';
+       font-size: 1.6vw;
+       /* font-weight: 400;
+    line-height: 24.48px; */
+       text-align: center;
+       color: rgba(255, 255, 255, 1);
+       margin-top: 0px;
+       font-size: 5vw;
+    }
+    .wp p{
+        /* margin-top: 0px;
+        font-size: 2vw; */
+    }
+    .wp img{
+        /* padding: 4px; */
+    }
+    .call p{
+        font-size: 6vw;
+    }
+    .call {
+        margin-top: 0px;
+        font-size: 6vw;
+        height: 55px;
+       width: 100%;
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0px;
+        background: rgba(121, 176, 88, 1);
+        border: none;
+        font-family: 'Uxum-Grotesque';
+       
+        /* font-weight: 400;
+    line-height: 24.48px; */
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    .call img{
+        width: 8vw;
+    }
+
+    .consultancy{
+        width: 95%;
+    }
+    .consultText{
+        width: 100%;
+    }
+.consultText h2{
+    /* width: 100%; */
+    font-size: 10vw;
+    /* font-family: 'u'; */
+    font-weight: 110;
+    margin: 0px;
+    padding: 0px;
+}
+.consultText p{
+    margin-top: 12px;
+    font-size: 5vw;
+}
+.cont{
+    margin-top: 15px;
+    font-size: 5.5vw;
+}
+.consultImg{
+    width: 100%;
+}
+footer h3{
+   font-size: 5vw;
+   font-weight: 600;
+}
+footer h4{
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+footer p{
+    font-size: 4vw;
+}
+.foot{
+    margin: 0px;
+    width: 100%;
+    font-size: 3.9vw;
+}
 }
